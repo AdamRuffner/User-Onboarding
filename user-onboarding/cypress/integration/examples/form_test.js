@@ -58,7 +58,7 @@ describe('user app', () => {
         checkbox().check().should('be.checked')
         checkbox().uncheck()
         button().should('be.disabled')
-        button().click()
+        // button().click()
     }) 
 
     it('submit everything and post', () => {

@@ -18,7 +18,7 @@ export default function Form(props) {
 
 
     return (
-        <form>
+        <form onSubmit={onSubmit}>
             <label>Name
                 <input 
                     name='name'

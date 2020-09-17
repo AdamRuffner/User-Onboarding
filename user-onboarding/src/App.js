@@ -53,6 +53,7 @@ function App() {
       .finally(() => {
 
       })
+      console.log('YOU DID IT')
   }
 
   const validate = (name, value) => {
